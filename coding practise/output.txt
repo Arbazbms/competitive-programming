@@ -1,0 +1,4 @@
+Enter the value of N: 
+first elemnt by name6
+SUM AND PRODUCT OF ARRAY: 
+SUM: 20 Product: 720

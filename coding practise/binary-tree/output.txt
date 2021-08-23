@@ -1,0 +1,7 @@
+preorder traversal: 
+10 5 3 6 15 12 17 
+inorder traversal: 
+3 5 6 10 12 15 17 
+postorder traversal: 
+3 6 5 12 17 15 10 
+Height of Tree is: 3
