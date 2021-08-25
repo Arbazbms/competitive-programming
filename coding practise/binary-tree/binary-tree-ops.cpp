@@ -12,6 +12,7 @@ struct Node{
         right = NULL;
     }
 };
+
 void preorder(Node* root){
     if(root == NULL)
         return;

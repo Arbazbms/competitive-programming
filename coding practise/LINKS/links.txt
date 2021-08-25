@@ -1,0 +1,9 @@
+*Status Codes: https://datatracker.ietf.org/doc/html/rfc7231#section-6.3.1
+              https://httpstatuses.com/
+
+*DNS:          https://www.wpbeginner.com/glossary/dns/
+              https://www.wpbeginner.com/wp-tutorials/how-to-clear-your-dns-cache-mac-windows-chrome/
+
+
+*what happens when u hit URL in brower:
+            https://www.freecodecamp.org/news/what-happens-when-you-hit-url-in-your-browser/
