@@ -9,3 +9,7 @@
 
 *what happens when u hit URL in brower:
             https://www.freecodecamp.org/news/what-happens-when-you-hit-url-in-your-browser/
+            https://medium.com/@maneesha.wijesinghe1/what-happens-when-you-type-an-url-in-the-browser-and-press-enter-bb0aa2449c1a
+
+CDN: 
+            https://www.akamai.com/our-thinking/cdn/what-is-a-cdn
