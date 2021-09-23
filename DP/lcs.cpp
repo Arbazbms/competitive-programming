@@ -20,8 +20,6 @@ int lcs(int x, int y, string s1, string s2)
             }
         }
         return DP[x][y];
-        
-   
 }
 
 int main(){
