@@ -13,6 +13,8 @@ vector<int> nk(int arr[], int n, int k)
     {
         freq[arr[i]]++;
     }
+
+
     for (auto i : freq)
     {
         if (i.second > n / k)

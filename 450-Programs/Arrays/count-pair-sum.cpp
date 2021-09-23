@@ -27,6 +27,7 @@ public:
             }
             map[arr[i]]++;
         }
+
         return count;
 
         // if(n<2)

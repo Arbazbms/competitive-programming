@@ -1,5 +1,17 @@
 // https://practice.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1#
 //! N3 Soln
+/*
+Input:
+n = 6, X = 13
+arr[] = [1 4 45 6 10 8]
+
+	[1, 4, 6, 8, 10, 45]
+Output:
+1
+Explanation:
+The triplet {1, 4, 8} in 
+the array sums up to 13.
+*/
 #include <bits/stdc++.h>
 using namespace std;
 

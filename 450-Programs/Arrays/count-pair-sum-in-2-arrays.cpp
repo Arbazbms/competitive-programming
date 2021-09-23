@@ -6,7 +6,7 @@ Example 1:
 Input:
 M=4, N=4 , Sum = 10
 arr1[] = {1, 3, 5, 7}
-arr2[] = {2, 3, 5, 8} 
+arr2[] = {2, 5, 5, 8} 
 Output: 2
 Explanation: The pairs are: (5, 5) and (7, 3).
 
