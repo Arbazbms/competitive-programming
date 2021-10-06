@@ -1,7 +1,7 @@
 /* Reversing An Array Element */
 #include <bits/stdc++.h>
 using namespace std;
-reverseArray(int a[], int start, int end){
+void reverseArray(int a[], int start, int end){
 	while(start < end){
 		swap(a[start], a[end]);
 		start++;

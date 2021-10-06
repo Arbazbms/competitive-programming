@@ -30,12 +30,13 @@ using namespace std;
 int main()
 {
 
-	int arr[] = {1, 2, 3, 4};
+	int arr[] = {1, 2, 3, 4, 5};
 	int arrSize = sizeof(arr) / sizeof(arr[0]);
+	cout << "cheching\n";
 	int n1 = sizeof(arr);
-	cout << n1;
+	cout << n1 << "\n";
 	int n2 = sizeof(arr[0]);
-	cout << n2;
+	cout << n2 << "\n";
 	for (int i = 0; i < arrSize; i++)
 	{
 		cout << arr[i] << "\t";
