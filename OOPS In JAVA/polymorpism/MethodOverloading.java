@@ -19,7 +19,7 @@ class MultiplyFun {
 	}
 }
 
-class Main {
+class MethodOverloading {
 	public static void main(String[] args)
 	{
 

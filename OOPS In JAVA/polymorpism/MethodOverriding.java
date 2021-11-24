@@ -33,7 +33,7 @@ class subclass2 extends Parent {
 	}
 }
 
-class TestPolymorphism3 {
+class MethodOverriding {
 	public static void main(String[] args)
 	{
 
