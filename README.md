@@ -51,9 +51,11 @@
 
 [7. Contructors In JAVA](https://www.javatpoint.com/java-constructor)
 
+[8. Static Keyword important with easy explanation](https://www.javatpoint.com/static-keyword-in-java)
+
+[9.]()
 
 
 ### `OOPS - C++`
 [1. OOPS Concepts in C++](https://www.geeksforgeeks.org/object-oriented-programming-in-cpp/)
 
-jkjkb,.\t

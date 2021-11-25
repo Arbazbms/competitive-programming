@@ -23,7 +23,7 @@ class D extends A {
 }
 
 // Driver Class
-public class Test {
+public class Hierarchical {
 	public static void main(String[] args)
 	{
 		B obj_B = new B();

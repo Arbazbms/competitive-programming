@@ -29,7 +29,7 @@ class Maruti extends Car{
 	System.out.println("Max: 90Kmph");
    }
 }
-public class Maruti800 extends Maruti{
+public class Multilevel extends Maruti{
 
    public Maruti800()
    {

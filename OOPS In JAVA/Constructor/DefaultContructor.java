@@ -1,6 +1,6 @@
 
 //Java Program to create and call a default constructor  
-class defaultContructor{  
+class DefaultContructor{  
 //creating a default constructor  
 defaultContructor(){
     System.out.println("Bike is created");
@@ -8,7 +8,7 @@ defaultContructor(){
 //main method  
 public static void main(String args[]){  
 //calling a default constructor  
-defaultContructor b=new defaultContructor();  
+DefaultContructor b=new DefaultContructor();  
 }  
 }  
 
