@@ -26,3 +26,9 @@ It is because the object is not required to call a static method. If it were a n
 [9. Final Keyword in Java](https://www.geeksforgeeks.org/final-keyword-in-java/)
 
 [10. Final Arrays values can be canges but not reference](https://www.geeksforgeeks.org/final-arrays-in-java/)
+
+[11. Java Collections](https://www.edureka.co/blog/java-collections/)
+
+[12. Wrapper Classes](https://www.geeksforgeeks.org/wrapper-classes-java/)
+
+[13. For Each Loop in Java -- Performance perspective](https://www.geeksforgeeks.org/for-each-loop-in-java/)
