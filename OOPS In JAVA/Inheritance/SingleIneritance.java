@@ -21,7 +21,7 @@ class two extends one {
 	public void print_for() { System.out.println("for"); }
 }
 // Driver class
-public class SingleIneritance
+private class SingleIneritance
  {
 	public static void main(String[] args)
 	{

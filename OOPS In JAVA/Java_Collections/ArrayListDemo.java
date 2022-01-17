@@ -32,4 +32,5 @@ class ArrayListDemo{
             System.out.print(al.get(i) + " ");
         }
     }
+
 }
