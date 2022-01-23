@@ -1,6 +1,6 @@
 ## ```Interview Prepration```
 
-### `DBMS LINKS::::`
+### `DBMS LINKS:::::`
 [1. Interview BIT DBMS Question](https://www.interviewbit.com/dbms-interview-questions/)
 
 [2. Data Redundancy and Data Inconsistency](https://www.geeksforgeeks.org/difference-between-data-redundancy-and-data-inconsistency/)
