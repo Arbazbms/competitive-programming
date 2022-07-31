@@ -1,15 +1,12 @@
-#include <iostream>
+#include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-	int num1;
-	string name;
-    cout << "Hello world!" << endl;
-    cout << "Enter ur Name!" << endl;
-    cin >> name;
-    cout << "Name u have entered is : "<< name <<endl;
-    cin>>num1;	
-    cout << "num1"<< num1 <<endl;
+
+int main(){
+
+    int age;
+    string name;
+    cout << "Enter your name and age: "<< endl;
+    cin>> name >> age;
+    cout << "Hi " << name << " you are just "<< age << " years old!"<< endl;
     return 0;
 }
-

@@ -2,13 +2,16 @@
 using namespace std;
 
 bool isSame(int arr[], int n){
-	bool flag = 0;
+	bool same = true;
 	
-	for(int i=0; i<n; i++){
-		if(arr[i] != arr[i+1])
-			flag=1;
+	for(int i=0; i<n-1; i++){
+		if(arr[i] != arr[i+1]){
+			same = false;
+			cout<<arr[i+1]<<endl;
+			break;
+		}
 	}	
-	return flag;
+	return same;
 }
 int main(){
 	int arr[10],n;
@@ -18,8 +21,8 @@ int main(){
 	for(int i=0; i<n; i++){
 		cin >> arr[i];
 	}
-	int res = isSame(arr,n);
-	if(res == 0){
+	bool res = isSame(arr,n);
+	if(res){
 		cout <<"ARRAY ELEMS ARE SAME\n";
 	}else{
 			cout <<"ARRAY ELEMS ARE NOT SAME\n";
