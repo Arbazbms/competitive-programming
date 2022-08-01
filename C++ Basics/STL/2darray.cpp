@@ -15,6 +15,7 @@ int main()
 
     // getting size of 2d arrays
     int row = sizeof(arr1) / sizeof(arr1[0]);
+    cout << "ROW:::-> "<< sizeof(arr1) << "  ROW:::->" << sizeof(arr1[0])<< "  size of int ::->" << sizeof(int)<<endl;
     int col = sizeof(arr1[0]) / sizeof(int);
     cout << row << " " << col << endl;
 

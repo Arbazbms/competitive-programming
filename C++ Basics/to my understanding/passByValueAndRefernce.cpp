@@ -4,7 +4,7 @@
 //There are two most popular ways to pass parameters.
 
 //1.
-//Pass by Value: In this parameter passing method, values of actual parameters are copied to function’s 
+//Pass by Value: In this parameter passing method, values of actual parameters are copied to functionï¿½s 
 //formal parameters and the two types of parameters are stored in different memory locations. 
 //So any changes made inside functions are not reflected in actual parameters of caller.
 
@@ -36,6 +36,7 @@ int passbyvalue(int x){
 }
 
 int passbyreference(int *x){
+	cout << "*x :" << *x <<endl;
 	*x=30;
 }
 

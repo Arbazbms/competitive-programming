@@ -23,6 +23,8 @@ int main()
 
     cout << "VECTOR SIZE: " << g1.size();
 
+    cout << "empty: "<<g1.empty() << endl;
+
     g1.empty() ? cout << "Empty" : cout << "not empty";
 
     cout << "*************************************************************************************\n";
