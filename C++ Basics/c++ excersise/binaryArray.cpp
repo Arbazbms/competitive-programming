@@ -12,17 +12,20 @@ int getMaxLength(bool arr[], int n)
   
     for (int i = 0; i < n; i++) 
     { 
-        // Reset count when 0 is found 
-        if (arr[i] == 0) 
-            count = 0; 
-  
+        
+        
         // If 1 is found, increment count 
         // and update result if count becomes 
         // more. 
-        else
-        { 
+        if (arr[i] == 1) {
             count++;//increase count 
             result = max(result, count); 
+        }
+           
+        // Reset count when 0 is found 
+        else
+        { 
+            count = 0;
         } 
     } 
   
@@ -32,7 +35,7 @@ int getMaxLength(bool arr[], int n)
 // Driver code 
 int main() 
 { 
-    bool arr[] = {1,0,1,1}; 
+    bool arr[] = {1,0,1,1,0,0,0,1,1,0,1,0,1,1,1}; 
     int n = sizeof(arr)/sizeof(arr[0]); 
     cout << getMaxLength(arr, n) << endl; 
     return 0; 
