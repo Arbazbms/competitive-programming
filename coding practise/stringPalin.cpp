@@ -1,21 +1,23 @@
-#include<bits/stdc++.h>
-using namespace std;
-//REVIEW Enhance time complexity
-int main(){
+// #include<bits/stdc++.h>
+// using namespace std;
+// //REVIEW Enhance time complexity
+// int main(){
 
-    string s1 = "mom";
-    string temp;
-    int flag = 1;
-    for(int i=s1.length()-1;i>=0;i--){
-        temp+=s1[i];
-    }
-    if(s1 == temp){
-        cout<<"Palindrome";
-    }
-    else
-        cout<<"Not Palindrome";
-    return 0;
-}
+//     string s1 = "mom";
+//     string temp;
+//     int flag = 1;
+//     for(int i=s1.length()-1;i>=0;i--){
+//         temp+=s1[i];
+//     }
+//     if(s1 == temp){
+//         cout<<"Palindrome";
+//     }
+//     else
+//         cout<<"Not Palindrome"<<endl;
+
+//         cout << 1/3<<endl;
+//     return 0;
+// }
 
 //another approach to reverse string
 //   int n = str.length();
@@ -32,9 +34,9 @@ int main(){
     // reverse(str.begin(), str.end());
 
 
-// o(N) -timr
+// o(N) -time
 //o(1) - space
-/*
+
 // C++ program for the above approach
 #include <bits/stdc++.h>
 using namespace std;
@@ -60,10 +62,11 @@ string isPalindrome(string S)
 // Driver Code
 int main()
 {
-	string S = "ABCDCBA";
+	string S = "MOM";
 	cout << isPalindrome(S);
+
+    cout << "3/2= " << 3/2 <<endl; 
 
 	return 0;
 }
 
-*/

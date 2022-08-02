@@ -41,11 +41,11 @@ int passbyreference(int *x){
 }
 
 int main(){
-	
 	int x=20;
 	passbyvalue(x);
 	cout<<"passbyvalue value is: "<<x<<endl;	
 	passbyreference(&x);
+	cout << "&x val:: "<< &x <<endl;
 	cout<<"passbyreference value is : " << x <<endl;
 	return 0;
 }

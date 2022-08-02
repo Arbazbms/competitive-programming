@@ -1,3 +1,9 @@
+/*
+Time Complexity: O(n), where n is the input number. 
+
+Auxiliary Space: O(1)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int reverseNumber(int num){
