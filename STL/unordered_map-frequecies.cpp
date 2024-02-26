@@ -16,9 +16,9 @@ void countFreq(int a[], int n)
 int printFrequencies(int a[], int n)
 {
 
-    for (auto itr = hm.begin(); itr != hm.end(); itr++)
+    for (auto itr: hm)
     {
-        cout << itr->first << "--" << itr->second << endl;
+        cout << itr.first << "--" << itr.second << endl;
     }
 }
 // Return frequency of x (Assumes that
@@ -26,6 +26,14 @@ int printFrequencies(int a[], int n)
 int query(int x)
 {
     return hm[x];
+}
+
+string searchElement(int k){
+    if(hm.find(k)!=hm.end()){
+        return "FOUND";
+
+    }else
+        return "NOT FOUND";
 }
 
 // Driver program
@@ -39,5 +47,9 @@ int main()
     cout << query(2) << endl;
     cout << query(3) << endl;
     cout << query(5) << endl;
+
+    //search
+    cout << searchElement(2) << endl;
+
     return 0;
 }

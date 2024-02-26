@@ -1,35 +1,38 @@
-#include <iostream>
-using namespace std;
+// #include <iostream>
+// using namespace std;
 
 
-int main(){
+// int main(){
 	
-	int secretNumber = 7;
-	int guess;
-	int guessCount=0;
-	int guessLimit = 3;
-	bool outOfGuesses = false;
+// 	int secretNumber = 11;
+// 	int guess;
+// 	int guessCount=0;
+// 	int guessLimit = 3;
+// 	bool outOfGuesses = false;
+// 	string name;
+// 	cout << "Enter your Name" << endl;
+// 	cin >> name;
+// 	cout << "Guess Number from 0 - 15" << endl;
+// 	while(secretNumber!=guess && !outOfGuesses){
+// 		if(guessCount < guessLimit){
+// 			cout << "Enter Guess: ";
+// 			cin >> guess;		
+// 			guessCount++;
+// 		}else{
+// 			outOfGuesses = true;
+// 		}
 	
-	while(secretNumber!=guess && !outOfGuesses){
-		if(guessCount < guessLimit){
-			cout << "Enter Guess: ";
-			cin >> guess;		
-			guessCount++;
-		}else{
-			outOfGuesses = true;
-		}
-	
-	}
-	if(outOfGuesses)
-		cout << "YOU LOSE\n";
-	else
-		cout << "YOU WIN";
+// 	}
+// 	if(outOfGuesses)
+// 		cout << "YOU LOSE" << name << endl;
+// 	else
+// 		cout << "YOU WIN"<< name << endl;
 		 
-	return 0;
+// 	return 0;
 	
-}
+// }
 
-/*
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -55,4 +58,3 @@ int main(){
 	
 }
 
-*/

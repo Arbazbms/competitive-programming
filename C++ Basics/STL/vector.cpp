@@ -68,5 +68,10 @@ int main()
         cout << *ptr << " ";
     }
 
+    // find
+    if(find(g3.begin(), g3.end(), 10)!=g3.end()){
+
+        cout << "FOUND ";
+    }
     return 0;
 }

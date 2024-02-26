@@ -26,14 +26,20 @@ int main()
     //!assigning the element of m to m2
     map<int, int> m2(m.begin(), m.end());
 
+    //erase(key)
+    m2.erase(1);
+
+    // insert key 88 = value 99
+    m2[88] = 99;
+
     cout << "elements of map2 are: " << endl;
     for (itr = m2.begin(); itr != m2.end(); itr++)
     {
         cout << itr->first << "-" << itr->second << endl;
+        cout << typeid(itr->first).name() << endl;
     }
 
-    //erase(key)
-    m2.erase(1);
+
     //size
     cout << "size of map2 is: " << m2.size() << endl;
 

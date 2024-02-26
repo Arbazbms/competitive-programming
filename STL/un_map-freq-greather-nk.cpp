@@ -25,7 +25,8 @@ vector<int> nk(int arr[], int n, int k)
 int main()
 {
     vector<int> vect;
-    int arr[] = {1, 2, 2, 3, 3, 3, 4, 1, 1};
+    cout<<"hh";
+    int arr[] = {1, 2, 2, 3, 3, 3, 4, 1, 1, 1, 1, 1};
     int n = sizeof(arr) / sizeof(arr[0]);
     vect = nk(arr, n, 2);
     vector<int>::iterator it;
