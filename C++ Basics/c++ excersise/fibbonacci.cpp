@@ -23,3 +23,4 @@ int main()
 	fibnonacci(n);
 	return 0;
 }
+// n=10 -> 0 1 1 2 3 5 8 13 21 34
